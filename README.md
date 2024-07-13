@@ -1,3 +1,4 @@
+Demonstration of Phase III: https://youtu.be/7XyN5CrUx3s
 Phase I: Design a database
 To complete this project, XAMPP and Android Studio software were used. In Phase I each team was tasked with designing an entity-relationship diagram for a database. The information is stored as entity and relationship sets with cardinality and participation constraints. Attributes and primary keys are labeled for each set. After the diagram is designed it is translated into relationship tables with primary and foreign key constraints (if used). The following relationships were given and to be accounted for:
 •	The database should include details about courses, students, and instructors. 
