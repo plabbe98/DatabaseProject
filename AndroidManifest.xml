@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.movies">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Shrine"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".PageMovie" />
+        <activity android:name=".PageLogin"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MovieQuery"/>
+        <activity android:name=".PageMenu" />
+        <activity android:name=".PageRegister" />
+        <activity android:name=".PageGrades" />
+        <activity android:name=".PageSectionInfo" />
+        <activity android:name=".PageApptSchedule" />
+        <activity android:name=".PageOfficeTimes" />
+    </application>
+
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+
+        <!-- Background color for the checked state -->
+        <solid android:color="@color/colorPrimaryDark"/>
+
+        <!-- Border color and width (optional) -->
+        <stroke
+            android:width="2dp"
+            android:color="@color/colorPrimaryDark"/>
+
+        <!-- Corner radius (optional) -->
+        <corners android:radius="4dp" />
+    </shape>
